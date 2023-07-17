@@ -36,3 +36,39 @@
     transform: rotate(360deg);
   }
 }
+
+.profile-image {
+  max-height: 10rem;
+  max-width: 10rem;
+  border-radius: 100%;
+}
+
+.two-column-container {
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.hero-text {
+  font-size: 600%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.hero-text-description {
+  font-size: 130%;
+}
+
+a {
+  text-decoration: none;
+}
