@@ -1,7 +1,7 @@
 {
-  "name": "BlueBrendan.github.io",
+  "name": "chousnaps",
   "version": "0.1.0",
-  "homepage": "https://bluebrendan.github.io/",
+  "homepage": "https://bluebrendan.github.io/chousnaps",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
