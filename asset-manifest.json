@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/chousnaps/static/css/main.395fa2dd.css",
-    "main.js": "/chousnaps/static/js/main.7b39cc6b.js",
+    "main.js": "/chousnaps/static/js/main.a0c9dfdb.js",
     "static/js/787.e0bddbb2.chunk.js": "/chousnaps/static/js/787.e0bddbb2.chunk.js",
     "static/media/brendan_profile_image.jpg": "/chousnaps/static/media/brendan_profile_image.cab4fb89171645b64536.jpg",
     "static/media/stanford_theater.jpg": "/chousnaps/static/media/stanford_theater.ff45d5a65f4de7c17b0d.jpg",
@@ -45,11 +45,11 @@
     "static/media/youtube.avif": "/chousnaps/static/media/youtube.2cc2e9f0c987eaf0be6b.avif",
     "index.html": "/chousnaps/index.html",
     "main.395fa2dd.css.map": "/chousnaps/static/css/main.395fa2dd.css.map",
-    "main.7b39cc6b.js.map": "/chousnaps/static/js/main.7b39cc6b.js.map",
+    "main.a0c9dfdb.js.map": "/chousnaps/static/js/main.a0c9dfdb.js.map",
     "787.e0bddbb2.chunk.js.map": "/chousnaps/static/js/787.e0bddbb2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.395fa2dd.css",
-    "static/js/main.7b39cc6b.js"
+    "static/js/main.a0c9dfdb.js"
   ]
 }
