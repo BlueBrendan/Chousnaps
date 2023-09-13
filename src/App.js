@@ -13,7 +13,7 @@ function App() {
   const widthThreshold = 600;
   const largeScreen = windowSize.current[0] >= widthThreshold
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/chousnaps">
       <Routes>
         <Route path='/' element={<HomePage largeScreen={largeScreen}/>}/>
         <Route path='/gallery' element={<GalleryPage largeScreen={largeScreen}/>}/>
