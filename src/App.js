@@ -2,24 +2,24 @@ import React from 'react';
 import './index.css';
 import { HomePage } from './components/HomePage';
 import { GalleryPage } from './components/GalleryPage';
-import { AboutPage } from './components/AboutPage';
 import { ContactPage } from './components/ContactPage';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './App.css';
 import './Images.css';
+import { useRef } from 'react';
 
 function App() {
+  const windowSize = useRef([window.innerWidth, window.innerHeight]);
+  const widthThreshold = 600;
+  const largeScreen = windowSize.current[0] >= widthThreshold
   return (
-    <div className="page-container">
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<HomePage/>}/>
-        <Route path='/gallery' element={<GalleryPage/>}/>
-        <Route path='/about' element={<AboutPage/>}/>
+        <Route path='/' element={<HomePage largeScreen={largeScreen}/>}/>
+        <Route path='/gallery' element={<GalleryPage largeScreen={largeScreen}/>}/>
         <Route path='/contact' element={<ContactPage/>}/>
       </Routes>
     </BrowserRouter>
-  </div>
   );
 }
 

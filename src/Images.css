@@ -1,15 +1,88 @@
 .carousel-container {
-    max-width: 67%;
+    display: grid;
+    max-width: 68.5%;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 3rem;
+}
+
+.carousel-images {
+    grid-area: 1/2;
 }
 
 .carousel-text {
     color: white;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+    justify-content: flex-end;
+    grid-area: 1/2;
     z-index: 1;
+}
+
+.profile-image {
+    max-height: 30rem;
+    max-width: 30rem;
+    border-radius: 100%;
+}
+
+.step-image {
+    max-width: 20rem;
+    max-height: 20rem;
+    pointer-events: none;
+}
+
+.icon-image {
+    max-width: 2rem;
+    max-height: 2rem;
+}
+
+.gallery-container {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gallery-image {
+    box-shadow: rgba(62, 62, 62, 0.3) 5px 5px 15px 0px;
+}
+
+@media screen and (max-width: 1200px) {
+    .carousel-container {
+        max-width: 90%;
+        padding-bottom: 2rem;
+    }
+
+    .carousel-text {
+        margin-bottom: 2.5rem;
+    }
+
+    .profile-image {
+        max-height: 15rem;
+        max-width: 15rem;
+    }
+
+    .step-image {
+        max-width: 12rem;
+        max-height: 12rem;
+        pointer-events: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .carousel-container {
+        max-width: 95%;
+        padding-bottom: 0;
+    }
+
+    .profile-image {
+        max-width: 10rem;
+        max-height: 10rem;
+        margin-top: 1.5rem;
+    }
+
+    .icon-image {
+        max-width: 1.7rem;
+        max-height: 1.7rem;
+    }
 }
