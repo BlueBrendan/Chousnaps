@@ -10,7 +10,7 @@ import { useRef } from 'react';
 
 function App() {
   const windowSize = useRef([window.innerWidth, window.innerHeight]);
-  const widthThreshold = 600;
+  const widthThreshold = 650;
   const largeScreen = windowSize.current[0] >= widthThreshold
   return (
     <BrowserRouter basename="/chousnaps">
